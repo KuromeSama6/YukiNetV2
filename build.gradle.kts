@@ -39,6 +39,7 @@ dependencies {
     implementation("org.fusesource.jansi:jansi:2.4.1")
     // https://mvnrepository.com/artifact/org.jline/jline
     implementation("org.jline:jline:3.29.0")
+    implementation("org.java-websocket:Java-WebSocket:1.6.0")
 
     implementation("moe.ku6:jsonwrapper:0.0.1")
 
@@ -54,6 +55,10 @@ dependencies {
 
 tasks.test {
     useJUnitPlatform()
+}
+
+tasks {
+
 }
 
 tasks.jar {
