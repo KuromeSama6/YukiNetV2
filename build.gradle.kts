@@ -58,7 +58,9 @@ tasks.test {
 }
 
 tasks {
-
+    named("build") {
+        finalizedBy("shadowJar")
+    }
 }
 
 tasks.jar {

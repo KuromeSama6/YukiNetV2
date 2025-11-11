@@ -1,0 +1,10 @@
+{
+    "master": {
+        "url": "ws://0.0.0.0:23662",
+        "secret": "changeme!"
+    },
+    "resources": {
+        "backendLimit": 10,
+        "memoryLimit": 8192
+    }
+}
